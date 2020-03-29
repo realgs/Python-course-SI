@@ -1,0 +1,10 @@
+1. Znaleźć w internecie API ze źródłem danych o rynkach finansowych, przykłady:
+https://bittrex.github.io/api/v1-1
+https://bitbay.net/en/public-api
+https://www.tradingview.com/rest-api-spec/#section/Authentication
+
+Stworzyć prostą funkcję, która łączy się z danym API, pobiera listę ofert kupna oraz listę ofert sprzedaży i printuje do konsoli. (5pkt)
+
+2. Znaleźć API z drugiego źródła - giełdy / instytucji finansowej, wybrać jeden zasób finansowy, a właściwie ich parę (bitcoin-usd / ropa-usd / złoto-usd / eur - usd) 
+porównać gdzie bardziej opłaca się kupić (oferty sprzedaży są niższe), a gdzie sprzedać (oferty kupna są wyższe) (5pkt)
+
