@@ -1,0 +1,15 @@
+1. Rozszerzyć źródła danych o 2 kolejne API, porównywać wybrane wcześniej 2 pary zasobów i ich ceny kupna-sprzedaży na przestrzeni czasu. 
+Tym razem na podstawie cen kupna / sprzedaży z pośród poszerzonej bazy macie za zadanie na bieżąco wyliczać czy występuje możliwość arbitrażu.
+Pod pojęciem arbitrażu kryje się przeprowadzanie dwóch transakcji przeciwstawnych na dwóch różnych giełdach. 
+Pisząc bardziej zrozumiale - sprawdzacie czy da się kupić taniej w miejscu 1 i sprzedać drożej w miejscu 2.
+Pamiętajcie, że chcąc kupić w miejscu X musicie patrzeć na oferty sprzedaży w miejscu X, a chcąc sprzedać w miejscu Y musicie patrzeć na oferty kupna w miejscu Y.
+Program, jak poprzedni, ma się automatycznie odświeżać. Wynikiem jego działania ma być print informacji(przykładowo):
+Na giełdzie X można kupić 0.1 BTC za USD po kursie 6800 i sprzedać na giełdzie Y po kursie 6900, zyskując 10USD.
+(5pkt)
+
+2. Przy kalkulacjach wziąć pod uwagę prowizję kupna sprzedaży na giełdach. Pamiętajcie, żeby brać tu pod uwagę prowizję podawaną typu Taker (tę wyższą), bo bierzecie ofertę cudzą, nie składacie własnej i nie czekacie aż ktoś się na nią zdecyduje. 
+(2.5pkt)
+
+3. Założyć wirtualny budżet rozpatrywanych zasobów i w czasie rzeczywistym liczyć ile potencjalnie zarobilibyście na Waszych operacjach. Nie musicie brać pod uwagę opóźnienia w przesyłaniu środków pomiędzy giełdami.
+Dla uproszczenia identyfikacji rozpatrywanego systemu zakładamy że dysponujemy środkami w każdej z rozpatrywanych walut na każdej z rozpatrywanych giełd. 
+(2.5pkt)
