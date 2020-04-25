@@ -1,0 +1,14 @@
+1. Wybrać 5 zasobów w stosunku do dolara amerykańskiego. 
+Zmierzyć maksymalny potencjalny zysk dzienny, czyli procentową różnicę pomiędzy najniższą a najwyższą, występującą w 24 godzin ceny.
+Program ma odświeżać się w czasie rzeczywistym i printować do konsoli w 5 wierszach zasoby oraz ich wyniki, posortowane w kolejności od najlepszego do najgorszego.
+Przykładowo: wybieramy BTC, DASH, ETH, LTC, LSK i co 5 minut dostajemy update w postaci:
+ETH +4.30%
+BTC +3.00%
+DASH +0.9%
+LTC +0.4%
+LSK -3.5%
+(5pkt)
+2. Zmienić funkcję z punktu pierwszego tak, by przyjmowała jako parametr kwotę inwestycji oraz brała pod uwagę tylko te ceny, które zadowalałyby nas również ilościowo.
+Czyli w dalszym ciągu szukamy najniższej i najwyższej ceny w ciągu ostatnich 24h, ale sprawdzamy również wolumen wykonanych transakcji. 
+Jeśli wprowadzona jako parametr kwota inwestycji jest stosunkowo duża jest prawdopodobne, że najniższa i najwyższa cena będą składową wielu transakcji.
+(5pkt)
