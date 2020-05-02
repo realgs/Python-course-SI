@@ -1,0 +1,19 @@
+1. Stworzyć mini-program, który pozwala na podglądnięcie aktualnych zmian wartości posiadanych zasobów. 
+Po wprowadzeniu posiadanych zasobów program ma pozwalać na podglądnięcie ich zmian oraz całościowej zmiany wartości w ciągu ostatnich 24 [w %].
+Program może być napisany w dowolnej formie- aplikacja standalone na komputer, strona internetowa, skrypt javascriptu, czy nawet rozszerzenie do google chrome lub aplikacja mobilna.
+Forma programu jest Waszym wyborem, ma działać.
+W ramach MVP (minimalny zakres) program ma: 
+- przyjmować od użytkownika dane o posiadanych zasobach (jaki zasób, jaka ilość) 
+- dane przyjmujecie w dowolnej, wybranej przez siebie formie, np input konsoli czy json czy csv, jednak do programu załączcie plik txt, w którym krótko piszecie jak wprowadzić dane. 
+  Jeśli do programu załącza się plik z danymi wejściowymi- załączcie wzorcowy plik.
+- program ma trwale zapisywać dane o posiadanych zasobach
+- sprawdzać czy w swoim API ma informację o wartości wprowadzanego zasobu- jeśli nie ma- nie przyjmować i o tym informować
+- kalkulujcie wartości opierając się na cenie transakcji dokonanej w okolicy danego wycinka czasu- patrzycie na ostatnią transakcję od teraz i ostatnią transakcję zaraz przed datą obecną minus 24h.
+(6pkt)
+
+2. Dodatkowo:
+- jeśli jedno API ma zbyt małe spektrum- poszerzcie o dodatkowe API i w przypadku braku informacji w API nr.1 sprawdzajcie kolejne.
+- wprowadzić orientacyjną wycenę zasobów oraz orientacyjną zmianę wartości wyrażoną w USD (także w ciągu 24h)
+- wprowadzić możliwość edycji posiadanych zasobów- dodania / usunięcia / zmiany ilości
+- własny feature - dołóżcie coś fajnego z własnej wyobraźni, co potencjalnie mogłoby się przydać użytkownikowi Waszej apki:)
+(4pkt)
