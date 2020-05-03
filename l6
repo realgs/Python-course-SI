@@ -6,6 +6,7 @@ W ramach MVP (minimalny zakres) program ma:
 - przyjmować od użytkownika dane o posiadanych zasobach (jaki zasób, jaka ilość) 
 - dane przyjmujecie w dowolnej, wybranej przez siebie formie, np input konsoli czy json czy csv, jednak do programu załączcie plik txt, w którym krótko piszecie jak wprowadzić dane. 
   Jeśli do programu załącza się plik z danymi wejściowymi- załączcie wzorcowy plik.
+  Do trwałego przechowania danych nie wybierajcie formatu txt bo to nie format do przechowywania danych. Json, XML, csv lub jakakolwiek prosta baza danych. Obojętnie czego użyjecie, ale proszę- jeśli potraficie to nie txt. 
 - program ma trwale zapisywać dane o posiadanych zasobach
 - sprawdzać czy w swoim API ma informację o wartości wprowadzanego zasobu- jeśli nie ma- nie przyjmować i o tym informować
 - kalkulujcie wartości opierając się na cenie transakcji dokonanej w okolicy danego wycinka czasu- patrzycie na ostatnią transakcję od teraz i ostatnią transakcję zaraz przed datą obecną minus 24h.
