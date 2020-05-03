@@ -18,3 +18,13 @@ W ramach MVP (minimalny zakres) program ma:
 - wprowadzić możliwość edycji posiadanych zasobów- dodania / usunięcia / zmiany ilości
 - własny feature - dołóżcie coś fajnego z własnej wyobraźni, co potencjalnie mogłoby się przydać użytkownikowi Waszej apki:)
 (4pkt)
+
+Wyjaśnienie o co chodzi z grubsza w zadaniach 1 i 2:
+1. Po wprowadzeniu posiadanych zasobów program ma pozwalać na podglądnięcie ich zmian oraz całościowej zmiany wartości w ciągu ostatnich 24 [w %].
+2. Po wprowadzeniu posiadanych zasobów program ma pozwalać na podglądnięcie ich zmian oraz całościowej zmiany wartości w ciągu ostatnich 24 [w walucie bazowej, np. USD].
+Tu nie chodzi o to ile ktoś dodał do portfela w ciągu ostatnich 24h, w obu przypadkach chodzi o zmiany wartości rynkowej danych zasobów.
+
+Przykład: Pan Zdzisio kupił BTC i AUX 24h temu, wprowadza do programu ilości zasobów które zakupił i obserwuje o ile zasoby jego portfela urosły w stosunku do waloru bazowego (USD/EUR/PLN).
+W pierwszym zadaniu Zdzisio dowie się, że stracił 1% w ciągu ostatniej doby na BTC i zyskał na AUX 1% (i w sumie na całym portfelu X%), a drugim zadaniu, jeśli je zrobicie- dowie się ile pieniędzy mu przybyło i ile stracił na poszczególnych walorach (i w sumie na całym portfelu). 
+Pan Zdzisio będzie od czasu do czasu odpalał Wasz rocket science code i będzie wiedział ile procentowo i ile bezwzględnie zyskał lub stracił w ciągu ostatnich 24h. 
+Proponuję - jeśli Wasze api daje taką możliwość nie ograniczać się do jednej waluty bazowej (USD) oraz nie ograniczać się do 24h, tylko dać wybór użytkownikowi.
