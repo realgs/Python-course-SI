@@ -1,0 +1,12 @@
+Stworzyć funkcję, która dla różnych zakresów czasu notowań z przeszłości wygeneruje symulację dziennego wolumenu dla wybranego waloru (w przyszłości). 
+Funkcja przyjmuje argumenty wejściowe - walor (1 z 3 predefiniowanych przez Was) i datę "od". 
+Data w dowolnie wybranym przez was formacie, może być to string "2016-01-01" może być to pełny timestamp. 
+Symulacja ma bazować na danych od wprowadzonej daty do daty obecnej. Na podstawie tych danych historycznych tworzycie model, z którego generujecie dane dot. przyszłości.
+Proponuję bazować Wasz model na obserwacji zachowania z przeszłości (dziennego wolumenu, czyli obrotu danym walorem). 
+Podpowiedź: policzyć prawdopodobieństwa wystąpienia zdarzeń (spadku/wzrostu wolumenu) oraz jego wielkości (o ile % spadnie/wzrośnie) i na tej podstawie generować dzienne wolumeny w przyszłości.
+
+Przeprowadzić pojedynczą oraz wielokrotną symulację, zapisać wyniki, policzyć wskaźniki grupy symulacji (takie jak średnia, mediana, odchylenia). 
+Wygenerować wykres przedstawiający notowania historyczne oraz kontynuację notowań bazowaną na modelu (wybrany okres, proponuję taki sam na jaki patrzyliśmy wstecz)
+Na wykresie nanieść wynik pojedynczej symulacji oraz uśrednienia ze 100 symulacji.
+Uwaga - zostawcie sobie czas na przeprowadzenie symulacji, w zależności od sprzętu oraz jakości Waszego kodu symulacje mogą trochę trwać.
+(10pkt)
