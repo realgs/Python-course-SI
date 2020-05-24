@@ -1,0 +1,13 @@
+Wykorzystać model opracowany w ramach poprzedniej listy do symulacji danych z przeszłości oraz zestawić symulację z danymi rzeczywistymi.
+Dane mają dotyczyć wolumenu waloru wybranego przez was przy realizacji poprzedniej listy.
+Przykładowo: nauczyć model na danych z okresu 05-2019 - 10-2019, wygenerować dane dla okresu 10-2019 - 05-2020. 
+Stworzyć wykres i nanieść dane na siebie. Dla okresu 05-2019 - 10-2019 ma być widoczny jeden zbiór danych- rzeczywisty.
+Dla okresu 10-2019 - 05-2020 mają być widoczne zbiory:
+- rzeczywisty
+- symulowany pojedynczy
+- uśredniony ze 100 symulacji
+
+Daty są przykładowe- możecie wybrać inny zakres. Jeśli Wasz model jest skomplikowany możecie również wybrać mniejszą liczbę symulacji dla wyników uśrednionych.
+Do listy dołączcie plik tekstowy z odpowiedzią na pytania: 
+1) który z symulowanych wykresów (i dlaczego) okazał się bliższy rzeczywistości, jak to zmierzyliście (zamieścić dane dotyczące podobieństwa).
+2) Jak wybrany okres symulacji powinien wpływać na dokładność symulacji i jak wpłynął w Waszym przypadku?
